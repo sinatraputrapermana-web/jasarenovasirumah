@@ -1,0 +1,615 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- ========================================================
+       META DASAR & PAGE SPEED
+  ========================================================= -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Preconnect untuk mempercepat koneksi ke CDN pihak ketiga (Page Speed) -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Preload aset kritis di atas fold (LCP image) -->
+  <link rel="preload" as="image" href="assets/img/hero-bg.webp" fetchpriority="high">
+
+  <!-- ========================================================
+       SEO ON-PAGE: Title, Description, Keywords, Canonical
+  ========================================================= -->
+  <title>Jasa Renovasi Rumah Profesional & Terpercaya | Arsitek & Kontraktor</title>
+  <meta name="description" content="Jasa renovasi rumah, jasa arsitek, kontraktor rumah, dan desain interior terpercaya di Indonesia. Bergaransi, tepat waktu, dan hasil berkualitas premium. Konsultasi gratis sekarang!">
+  <meta name="keywords" content="jasa renovasi rumah, jasa arsitek, jasa kontraktor rumah, jasa kontraktor bangunan, renovasi bangunan, jasa desain interior, kontraktor terpercaya">
+  <meta name="author" content="Jasa Renovasi Rumah">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://jasarenovasirumah.my.id/">
+
+  <!-- Bahasa & lokasi untuk AEO/GEO (target lokal Indonesia) -->
+  <meta name="geo.region" content="ID">
+  <meta name="geo.placename" content="Indonesia">
+  <meta name="language" content="Indonesian">
+
+  <!-- ========================================================
+       OPEN GRAPH & TWITTER CARD (Social Share / GEO Context)
+  ========================================================= -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="Jasa Renovasi Rumah">
+  <meta property="og:title" content="Jasa Renovasi Rumah Profesional & Terpercaya | Arsitek & Kontraktor">
+  <meta property="og:description" content="Wujudkan rumah impian Anda bersama tim arsitek dan kontraktor profesional. Layanan renovasi rumah, bangunan, dan desain interior bergaransi.">
+  <meta property="og:image" content="https://jasarenovasirumah.my.id/assets/img/og-image.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://jasarenovasirumah.my.id/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jasa Renovasi Rumah Profesional & Terpercaya">
+  <meta name="twitter:description" content="Jasa arsitek, kontraktor, dan desain interior terpercaya. Konsultasi gratis sekarang.">
+  <meta name="twitter:image" content="https://jasarenovasirumah.my.id/assets/img/og-image.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="assets/img/logo-mark.webp">
+
+  <!-- ========================================================
+       FONT (Google Fonts, dimuat efisien dengan display=swap)
+  ========================================================= -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- ========================================================
+       BOOTSTRAP 5 (CDN) & ICON
+  ========================================================= -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- CSS Kustom -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- ========================================================
+       SCHEMA MARKUP (JSON-LD) &mdash; Rich Snippet Bisnis Lokal
+       Digunakan Google (SEO), Search Generative Experience (GEO),
+       dan Answer Engine seperti ChatGPT/Perplexity (AEO)
+  ========================================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Jasa Renovasi Rumah",
+    "image": "https://jasarenovasirumah.my.id/assets/img/og-image.webp",
+    "url": "https://jasarenovasirumah.my.id/",
+    "logo": "https://jasarenovasirumah.my.id/assets/img/logo-mark.webp",
+    "description": "Jasa renovasi rumah, jasa arsitek, kontraktor rumah, kontraktor bangunan, dan desain interior profesional dengan garansi pekerjaan di seluruh Indonesia.",
+    "priceRange": "Rp Konsultasi",
+    "telephone": "+62-889-8964-3555",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Contoh Alamat No. 123",
+      "addressLocality": "Malang",
+      "addressRegion": "Jawa Timur",
+      "postalCode": "65100",
+      "addressCountry": "ID"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -7.9666,
+      "longitude": 112.6326
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:00",
+      "closes": "17:00"
+    },
+    "sameAs": [
+      "https://www.instagram.com/",
+      "https://www.facebook.com/",
+      "https://www.youtube.com/"
+    ],
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Jasa Arsitek" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Jasa Kontraktor Rumah" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Jasa Kontraktor Bangunan" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Jasa Renovasi Bangunan/Gedung" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Jasa Desain Interior" } }
+    ]
+  }
+  </script>
+
+  <!-- Schema tambahan: FAQPage &mdash; mendukung AEO (jawaban langsung di mesin pencari/AI) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Berapa lama proses renovasi rumah biasanya berlangsung?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Durasi renovasi rumah bergantung pada skala pekerjaan, umumnya berkisar antara 2 minggu untuk renovasi ringan hingga 3 bulan untuk renovasi total, dengan jadwal yang disepakati di awal kontrak."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah jasa renovasi rumah ini memberikan garansi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ya, setiap pekerjaan renovasi dan konstruksi yang kami kerjakan disertai garansi struktur dan garansi pengerjaan sesuai kesepakatan kontrak kerja."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Apakah tersedia layanan konsultasi desain sebelum renovasi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Kami menyediakan konsultasi awal secara gratis bersama tim arsitek untuk membantu merancang konsep renovasi sesuai kebutuhan dan anggaran Anda."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Schema BreadcrumbList untuk struktur navigasi -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "https://jasarenovasirumah.my.id/" }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+
+  <!-- ========================================================
+       TOPBAR
+  ========================================================= -->
+  <div class="topbar d-none d-md-block">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <i class="bi bi-telephone-fill me-1"></i> <a href="tel:+6288989643555">0889-8964-3555</a>
+        <span class="mx-2">|</span>
+        <i class="bi bi-envelope-fill me-1"></i> <a href="mailto:info@jasarenovasirumah.my.id">info@jasarenovasirumah.my.id</a>
+      </div>
+      <div>
+        <a href="#" class="me-2" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="me-2" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       HEADER & NAVIGASI (Semantic <header>, <nav>)
+  ========================================================= -->
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg py-3" aria-label="Navigasi utama">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">JASA RENOVASI <span>RUMAH</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar" aria-expanded="false" aria-label="Buka menu navigasi">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang</a></li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="layanan.html" id="layananDropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
+              <ul class="dropdown-menu" aria-labelledby="layananDropdown">
+                <li><a class="dropdown-item" href="layanan/jasa-arsitek.html">Jasa Arsitek</a></li>
+                <li><a class="dropdown-item" href="layanan/jasa-kontraktor-rumah.html">Jasa Kontraktor Rumah</a></li>
+                <li><a class="dropdown-item" href="layanan/jasa-kontraktor-bangunan.html">Jasa Kontraktor Bangunan</a></li>
+                <li><a class="dropdown-item" href="layanan/jasa-renovasi-bangunan.html">Jasa Renovasi Bangunan/Gedung</a></li>
+                <li><a class="dropdown-item" href="layanan/jasa-desain-interior.html">Jasa Desain Interior</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="layanan/jasa-lainnya.html">Lainnya</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+              <a href="https://wa.me/6288989643555?text=Halo%2C%20saya%20ingin%20konsultasi%20jasa%20renovasi%20rumah" target="_blank" rel="noopener" class="btn btn-maroon">Konsultasi Gratis</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================================================
+       MAIN CONTENT
+  ========================================================= -->
+  <main id="main-content">
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/img/hero-index.webp') center/cover no-repeat;" aria-label="Header Beranda">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <p class="eyebrow text-white">Arsitek &bull; Kontraktor &bull; Desain Interior</p>
+            <!-- H1 tunggal untuk keseluruhan halaman -->
+            <h1>Wujudkan Renovasi Rumah Impian Bersama Ahlinya</h1>
+            <p class="lead">
+              Jasa renovasi rumah, jasa arsitek, dan jasa kontraktor bangunan profesional yang mengutamakan
+              kualitas, ketepatan waktu, dan garansi pekerjaan. Dipercaya ratusan klien di seluruh Indonesia.
+            </p>
+            <div class="d-grid d-md-flex gap-3 mt-4">
+              <a href="https://wa.me/6288989643555?text=Halo%2C%20saya%20ingin%20konsultasi%20jasa%20renovasi%20rumah" target="_blank" rel="noopener" class="btn btn-maroon">Konsultasi Gratis Sekarang</a>
+              <a href="galeri.html" class="btn btn-outline-maroon">Lihat Portofolio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATISTIK SINGKAT ================= -->
+    <section class="bg-maroon py-4" aria-label="Statistik Perusahaan">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-6 col-md-3 stat-item">
+            <h2>150+</h2>
+            <p class="text-white-50">Proyek Selesai</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <h2>12</h2>
+            <p class="text-white-50">Tahun Pengalaman</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <h2>98%</h2>
+            <p class="text-white-50">Klien Puas</p>
+          </div>
+          <div class="col-6 col-md-3 stat-item">
+            <h2>25+</h2>
+            <p class="text-white-50">Tim Profesional</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TENTANG SINGKAT ================= -->
+    <section class="section-py" aria-label="Tentang Kami Singkat">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="blueprint-frame">
+              <span class="corner-tl"></span><span class="corner-tr"></span>
+              <span class="corner-bl"></span><span class="corner-br"></span>
+              <img src="assets/img/about-us.webp" alt="Tim arsitek dan kontraktor Jasa Renovasi Rumah sedang berdiskusi proyek"
+                   class="img-fluid" width="1000" height="1200" loading="lazy">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p class="eyebrow">Tentang Kami</p>
+            <h2 class="section-title">Mitra Terpercaya untuk Setiap Kebutuhan Renovasi & Konstruksi</h2>
+            <div class="divider-line"></div>
+            <p>
+              Sejak berdiri, kami berkomitmen menghadirkan layanan <strong>jasa renovasi rumah</strong> yang
+              mengutamakan presisi desain, kualitas material, dan kejujuran anggaran. Tim arsitek dan kontraktor
+              kami menangani proyek mulai dari renovasi rumah tinggal, pembangunan gedung, hingga desain interior
+              premium.
+            </p>
+            <p class="text-muted">
+              Setiap proyek dikerjakan dengan pendekatan konsultatif &mdash; mendengarkan kebutuhan klien, menyusun
+              gambar kerja yang detail, dan mengawal pelaksanaan hingga serah terima dengan garansi pekerjaan.
+            </p>
+            <a href="tentang.html" class="btn btn-maroon mt-2">Selengkapnya Tentang Kami</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LAYANAN SINGKAT ================= -->
+    <section class="section-py bg-cream" aria-label="Layanan Kami">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="eyebrow">Layanan Kami</p>
+          <h2 class="section-title">Solusi Lengkap Renovasi & Konstruksi Bangunan</h2>
+          <div class="divider-line center"></div>
+          <p class="text-muted mx-auto" style="max-width:640px;">
+            Dari perencanaan arsitektur hingga sentuhan akhir interior, kami hadir sebagai mitra tunggal yang
+            menangani seluruh proses pembangunan dan renovasi rumah Anda.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <i class="bi bi-compass service-icon" aria-hidden="true"></i>
+              <h3>Jasa Arsitek</h3>
+              <p>Perencanaan desain arsitektur yang fungsional, estetis, dan sesuai regulasi bangunan.</p>
+              <a href="layanan/jasa-arsitek.html">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <i class="bi bi-house-gear service-icon" aria-hidden="true"></i>
+              <h3>Jasa Kontraktor Rumah</h3>
+              <p>Pembangunan dan renovasi rumah tinggal dengan manajemen proyek yang rapi dan tepat waktu.</p>
+              <a href="layanan/jasa-kontraktor-rumah.html">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <i class="bi bi-buildings service-icon" aria-hidden="true"></i>
+              <h3>Jasa Kontraktor Bangunan</h3>
+              <p>Penanganan proyek skala besar seperti ruko, gedung komersial, dan fasilitas usaha.</p>
+              <a href="layanan/jasa-kontraktor-bangunan.html">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <i class="bi bi-tools service-icon" aria-hidden="true"></i>
+              <h3>Jasa Renovasi Bangunan/Gedung</h3>
+              <p>Renovasi total maupun parsial untuk bangunan lama menjadi lebih modern dan tahan lama.</p>
+              <a href="layanan/jasa-renovasi-bangunan.html">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <i class="bi bi-palette service-icon" aria-hidden="true"></i>
+              <h3>Jasa Desain Interior</h3>
+              <p>Penataan ruang dan pemilihan material interior untuk kenyamanan serta nilai estetika tinggi.</p>
+              <a href="layanan/jasa-desain-interior.html">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card">
+              <i class="bi bi-grid-3x3-gap service-icon" aria-hidden="true"></i>
+              <h3>Layanan Lainnya</h3>
+              <p>Konsultasi struktur, perizinan bangunan (IMB/PBG), hingga perawatan berkala pasca-renovasi.</p>
+              <a href="layanan/jasa-lainnya.html">Pelajari Lebih Lanjut <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PORTOFOLIO / GALERI SINGKAT ================= -->
+    <section class="section-py" aria-label="Portofolio Proyek">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="eyebrow">Portofolio</p>
+          <h2 class="section-title">Karya Renovasi & Pembangunan Terbaru Kami</h2>
+          <div class="divider-line center"></div>
+        </div>
+
+        <div class="row g-3">
+          <article class="col-md-4">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio-1.webp" class="img-fluid" alt="Renovasi rumah minimalis di Bandung"
+                   width="900" height="700" loading="lazy">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="cat">Renovasi Rumah</span>
+                  <h3 class="h6 text-white mb-0">Rumah Minimalis &mdash; Bandung</h3>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio-2.webp" class="img-fluid" alt="Desain interior modern di Jakarta"
+                   width="900" height="700" loading="lazy">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="cat">Desain Interior</span>
+                  <h3 class="h6 text-white mb-0">Interior Modern &mdash; Jakarta</h3>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="portfolio-item">
+              <img src="assets/img/portfolio-3.webp" class="img-fluid" alt="Renovasi fasad rumah di Surabaya"
+                   width="900" height="700" loading="lazy">
+              <div class="portfolio-overlay">
+                <div>
+                  <span class="cat">Renovasi Fasad</span>
+                  <h3 class="h6 text-white mb-0">Fasad Rumah &mdash; Surabaya</h3>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="galeri.html" class="btn btn-maroon">Lihat Semua Galeri Proyek</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONI ================= -->
+    <section class="section-py bg-cream" aria-label="Testimoni Klien">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="eyebrow">Testimoni</p>
+          <h2 class="section-title">Apa Kata Klien Kami</h2>
+          <div class="divider-line center"></div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="testimonial-card h-100">
+              <i class="bi bi-quote quote-icon"></i>
+              <p>"Proses renovasi rumah kami berjalan sangat rapi, komunikasi tim selalu jelas dan hasil akhirnya melebihi ekspektasi."</p>
+              <p class="fw-semibold mb-0 text-maroon">&mdash; Bapak Andi, Malang</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card h-100">
+              <i class="bi bi-quote quote-icon"></i>
+              <p>"Tim arsitek memberi banyak masukan desain yang membuat rumah kami terasa jauh lebih luas dan nyaman."</p>
+              <p class="fw-semibold mb-0 text-maroon">&mdash; Ibu Sinta, Surabaya</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial-card h-100">
+              <i class="bi bi-quote quote-icon"></i>
+              <p>"Pengerjaan tepat waktu sesuai kontrak dan ada garansi, jadi kami merasa aman menggunakan jasa ini."</p>
+              <p class="fw-semibold mb-0 text-maroon">&mdash; Bapak Reza, Bekasi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BLOG / ARTIKEL TERBARU ================= -->
+    <section class="section-py bg-cream" aria-label="Artikel Terbaru">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="eyebrow">Blog & Tips</p>
+          <h2 class="section-title">Artikel & Inspirasi Renovasi</h2>
+          <div class="divider-line center"></div>
+          <p class="text-muted mx-auto" style="max-width:520px;">Temukan tips, panduan, dan inspirasi seputar renovasi rumah, desain interior, dan konstruksi dari tim ahli kami.</p>
+        </div>
+        <div class="row g-4">
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card h-100 p-0 overflow-hidden">
+              <img src="assets/img/fasad-rumah-minimalis-modern-2026.webp" class="img-fluid w-100" alt="Fasad rumah minimalis modern dengan garis tegas dan taman kering" width="900" height="600" loading="lazy">
+              <div class="p-4">
+                <p class="eyebrow mb-1">Desain Rumah &bull; 23 Agustus 2026</p>
+                <h3 class="h5"><a href="blog/ide-desain-rumah-minimalis-modern.html" class="text-maroon">15 Desain Rumah Minimalis Modern Tren 2026 yang Estetik & Fungsional</a></h3>
+                <p class="text-muted small">Temukan 15 inspirasi desain rumah minimalis modern 2026 yang estetik, hemat lahan, dan fungsional. Konsultasikan denah impian Anda bersama arsitek berpengalaman.</p>
+                <a href="blog/ide-desain-rumah-minimalis-modern.html" class="text-maroon fw-semibold small">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card h-100 p-0 overflow-hidden">
+              <img src="assets/img/tabel-biaya-bangun-rumah-per-m2.webp" class="img-fluid w-100" alt="Tabel kisaran biaya bangun rumah per m2 material standar vs premium" width="900" height="600" loading="lazy">
+              <div class="p-4">
+                <p class="eyebrow mb-1">Biaya Bangun &bull; 23 Agustus 2026</p>
+                <h3 class="h5"><a href="blog/biaya-bangun-rumah-per-m2.html" class="text-maroon">Cara Akurat Menghitung Biaya Bangun Rumah Per M2 Tahun 2026</a></h3>
+                <p class="text-muted small">Pelajari cara menghitung biaya bangun rumah per m2 tahun 2026 secara akurat, lengkap tabel kisaran harga material standar vs premium dan tips hemat RAB.</p>
+                <a href="blog/biaya-bangun-rumah-per-m2.html" class="text-maroon fw-semibold small">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-6 col-lg-4">
+            <div class="service-card h-100 p-0 overflow-hidden">
+              <img src="assets/img/sebelum-sesudah-renovasi-rumah-jakarta.webp" class="img-fluid w-100" alt="Foto sebelum dan sesudah renovasi rumah di Jakarta" width="900" height="600" loading="lazy">
+              <div class="p-4">
+                <p class="eyebrow mb-1">Jasa Renovasi &bull; 23 Agustus 2026</p>
+                <h3 class="h5"><a href="blog/jasa-renovasi-rumah-jakarta.html" class="text-maroon">Jasa Renovasi Rumah Jakarta Terbaik: Pengerjaan Cepat & Bergaransi Resmi</a></h3>
+                <p class="text-muted small">Jasa renovasi rumah Jakarta berpengalaman, pengerjaan cepat, RAB transparan, dan bergaransi resmi. Konsultasi dan survey lokasi gratis, hubungi tim kami sekarang.</p>
+                <a href="blog/jasa-renovasi-rumah-jakarta.html" class="text-maroon fw-semibold small">Baca Selengkapnya <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="text-center mt-5">
+          <a href="blog.html" class="btn btn-maroon">Lihat Semua Artikel</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="cta-section" aria-label="Ajakan Konsultasi">
+      <div class="container text-center">
+        <p class="eyebrow" style="color:var(--color-gold);">Konsultasi Gratis</p>
+        <h2 class="text-white section-title">Siap Mempercantik Rumah Anda?</h2>
+        <div class="divider-line center"></div>
+        <p class="text-white-50 mx-auto mb-4" style="max-width:560px;">Jadikan setiap sudut rumah lebih nyaman dan modern. Konsultasikan kebutuhan ruang Anda dengan tim arsitek dan kontraktor ahli kami sekarang.</p>
+        <a href="https://wa.me/6288989643555?text=Halo%2C%20saya%20ingin%20konsultasi%20jasa%20renovasi%20rumah" target="_blank" rel="noopener" class="btn btn-outline-maroon mb-4">
+          <i class="bi bi-whatsapp me-2"></i>Hubungi via WhatsApp
+        </a>
+        <div class="cta-contact-inline">
+          <span><i class="bi bi-telephone-fill me-1"></i><a href="tel:+6288989643555">0889-8964-3555</a></span>
+          <span><i class="bi bi-envelope-fill me-1"></i><a href="mailto:info@jasarenovasirumah.my.id">info@jasarenovasirumah.my.id</a></span>
+          <span><i class="bi bi-geo-alt-fill me-1"></i>Malang, Jawa Timur</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+  ========================================================= -->
+  <footer class="site-footer">
+    <div class="container section-py">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5>JASA<span class="text-gold">RENOVASI</span></h5>
+          <p>
+            Penyedia jasa renovasi rumah, jasa arsitek, dan kontraktor bangunan terpercaya dengan standar
+            kualitas premium di seluruh Indonesia.
+          </p>
+          <div class="d-flex gap-2 mt-3">
+            <a href="#" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/6288989643555?text=Halo%2C%20saya%20ingin%20konsultasi%20jasa%20renovasi%20rumah" target="_blank" rel="noopener" class="social-icon" aria-label="Chat WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6">
+          <h5>Navigasi</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="index.html">Beranda</a></li>
+            <li class="mb-2"><a href="tentang.html">Tentang</a></li>
+            <li class="mb-2"><a href="layanan.html">Layanan</a></li>
+            <li class="mb-2"><a href="galeri.html">Galeri</a></li>
+            <li class="mb-2"><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-6">
+          <h5>Layanan</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="layanan/jasa-arsitek.html">Jasa Arsitek</a></li>
+            <li class="mb-2"><a href="layanan/jasa-kontraktor-rumah.html">Jasa Kontraktor Rumah</a></li>
+            <li class="mb-2"><a href="layanan/jasa-kontraktor-bangunan.html">Jasa Kontraktor Bangunan</a></li>
+            <li class="mb-2"><a href="layanan/jasa-renovasi-bangunan.html">Renovasi Bangunan/Gedung</a></li>
+            <li class="mb-2"><a href="layanan/jasa-desain-interior.html">Desain Interior</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3">
+          <h5>Kontak</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="bi bi-geo-alt-fill me-2 text-gold"></i>Jl. Contoh Alamat No. 123, Malang, Jawa Timur</li>
+            <li class="mb-2"><i class="bi bi-telephone-fill me-2 text-gold"></i><a href="tel:+6288989643555">0889-8964-3555</a></li>
+            <li class="mb-2"><i class="bi bi-envelope-fill me-2 text-gold"></i><a href="mailto:info@jasarenovasirumah.my.id">info@jasarenovasirumah.my.id</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <div class="container">
+        &copy; <span id="year">2026</span> Jasa Renovasi Rumah. Seluruh hak cipta dilindungi.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       SCRIPTS (dimuat di akhir body agar tidak blocking render)
+  ========================================================= -->
+  
+  <!-- Floating Buttons -->
+  <div class="floating-buttons">
+    <a href="#" id="btn-back-to-top" class="btn-floating btn-top" aria-label="Kembali ke atas">
+      <i class="bi bi-arrow-up"></i>
+    </a>
+    <a href="https://wa.me/6288989643555?text=Halo%2C%20saya%20ingin%20konsultasi%20jasa%20renovasi%20rumah" target="_blank" rel="noopener" class="btn-floating btn-wa" aria-label="Chat WhatsApp">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

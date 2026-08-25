@@ -1,0 +1,33 @@
+# robots.txt — jasarenovasirumah.my.id
+# Mengizinkan seluruh crawler mesin pencari & AI crawler mengindeks konten publik
+
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /*?*utm_
+Disallow: /*?*sessionid=
+
+# Izinkan aset penting agar Google dapat merender halaman dengan benar
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Crawler AI / Answer Engine (AEO & GEO) — diizinkan mengakses konten publik
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Lokasi sitemap
+Sitemap: https://jasarenovasirumah.my.id/sitemap.xml
