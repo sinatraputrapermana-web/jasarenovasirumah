@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Beranda -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Tentang -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/tentang</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Layanan (halaman induk) -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/layanan</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Sub-halaman Layanan -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/layanan/jasa-arsitek</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/layanan/jasa-kontraktor-rumah</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/layanan/jasa-kontraktor-bangunan</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/layanan/jasa-renovasi-bangunan</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/layanan/jasa-desain-interior</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/layanan/jasa-lainnya</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Galeri -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/galeri</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog (indeks) -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Detail Blog (tambahkan satu <url> per artikel baru) -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/ide-desain-rumah-minimalis-modern</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/biaya-bangun-rumah-per-m2</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/jasa-renovasi-rumah-jakarta</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Catatan: seluruh CTA "Konsultasi/Hubungi Kami" mengarah langsung ke WhatsApp
+       (https://wa.me/6288989643555), sehingga halaman kontak.html sengaja tidak dibuat/di-index. -->
+
+</urlset>
