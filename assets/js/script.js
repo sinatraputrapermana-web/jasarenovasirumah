@@ -57,4 +57,95 @@
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
+
+  // Blog Pagination Logic
+  const blogList = document.getElementById("blog-list");
+  const blogPagination = document.getElementById("blog-pagination");
+  
+  if (blogList && blogPagination) {
+    const itemsPerPage = 6;
+    const blogItems = Array.from(blogList.querySelectorAll(".blog-item"));
+    const totalPages = Math.ceil(blogItems.length / itemsPerPage);
+    let currentPage = 1;
+
+    function renderBlogItems(page) {
+      const start = (page - 1) * itemsPerPage;
+      const end = start + itemsPerPage;
+
+      blogItems.forEach((item, index) => {
+        if (index >= start && index < end) {
+          item.style.display = "block";
+        } else {
+          item.style.display = "none";
+        }
+      });
+    }
+
+    function renderPagination() {
+      blogPagination.innerHTML = "";
+
+      if (totalPages <= 1) return;
+
+      // Previous Button
+      const prevLi = document.createElement("li");
+      prevLi.className = `page-item ${currentPage === 1 ? "disabled" : ""}`;
+      prevLi.innerHTML = `<a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">&laquo; Sebelumnya</span></a>`;
+      prevLi.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (currentPage > 1) {
+          currentPage--;
+          updatePagination();
+        }
+      });
+      blogPagination.appendChild(prevLi);
+
+      // Page Numbers (Max 5)
+      let startPage = Math.max(1, currentPage - 2);
+      let endPage = Math.min(totalPages, startPage + 4);
+
+      if (endPage - startPage < 4) {
+        startPage = Math.max(1, endPage - 4);
+      }
+
+      for (let i = startPage; i <= endPage; i++) {
+        const pageLi = document.createElement("li");
+        pageLi.className = `page-item ${i === currentPage ? "active" : ""}`;
+        pageLi.innerHTML = `<a class="page-link" href="#">${i}</a>`;
+        pageLi.addEventListener("click", (e) => {
+          e.preventDefault();
+          currentPage = i;
+          updatePagination();
+        });
+        blogPagination.appendChild(pageLi);
+      }
+
+      // Next Button
+      const nextLi = document.createElement("li");
+      nextLi.className = `page-item ${currentPage === totalPages ? "disabled" : ""}`;
+      nextLi.innerHTML = `<a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">Selanjutnya &raquo;</span></a>`;
+      nextLi.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (currentPage < totalPages) {
+          currentPage++;
+          updatePagination();
+        }
+      });
+      blogPagination.appendChild(nextLi);
+    }
+
+    function updatePagination() {
+      renderBlogItems(currentPage);
+      renderPagination();
+      // Scroll to top of blog list smoothly
+      const sectionPy = document.querySelector('.section-py');
+      if(sectionPy) {
+          const yOffset = -80; // Adjust for fixed header
+          const y = sectionPy.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({top: y, behavior: 'smooth'});
+      }
+    }
+
+    // Initialize
+    updatePagination();
+  }
 })();

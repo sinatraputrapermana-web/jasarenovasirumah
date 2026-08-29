@@ -82,6 +82,24 @@
 
   <!-- Detail Blog (tambahkan satu <url> per artikel baru) -->
   <url>
+    <loc>https://jasarenovasirumah.my.id/blog/estimasi-rab-renovasi-rumah-aman</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/ide-desain-rumah-industrial-modern</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/jasa-renovasi-ruko-jakarta</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://jasarenovasirumah.my.id/blog/ide-desain-rumah-minimalis-modern</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>

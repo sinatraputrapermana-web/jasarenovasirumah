@@ -416,6 +416,36 @@ header.fixed-top {
 }
 
 /* =======================
+   Pagination
+   ======================= */
+.pagination .page-link {
+  color: var(--color-maroon);
+  border-color: #dee2e6;
+  border-radius: var(--radius);
+  margin: 0 2px;
+}
+
+.pagination .page-link:hover {
+  color: var(--color-white);
+  background-color: var(--color-maroon-light);
+  border-color: var(--color-maroon-light);
+}
+
+.pagination .page-item.active .page-link {
+  z-index: 3;
+  color: var(--color-white);
+  background-color: var(--color-maroon);
+  border-color: var(--color-maroon);
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+/* =======================
    Footer
    ======================= */
 footer.site-footer {
