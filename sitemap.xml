@@ -154,6 +154,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/analisis-biaya-renovasi-gedung-kantor</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/desain-interior-kamar-tidur-minimalis</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/jasa-arsitek-rumah-mewah-jakarta</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <!-- Catatan: seluruh CTA "Konsultasi/Hubungi Kami" mengarah langsung ke WhatsApp
        (https://wa.me/6288989643555), sehingga halaman kontak.html sengaja tidak dibuat/di-index. -->
