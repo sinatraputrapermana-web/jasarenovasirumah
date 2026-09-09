@@ -82,6 +82,18 @@
 
   <!-- Detail Blog (tambahkan satu <url> per artikel baru) -->
   <url>
+    <loc>https://jasarenovasirumah.my.id/blog/renovasi-rumah-malang-rab-transparan</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/estimasi-biaya-renovasi-kamar-mandi-malang</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://jasarenovasirumah.my.id/blog/jasa-renovasi-rumah-malang</loc>
     <lastmod>2026-09-08</lastmod>
     <changefreq>monthly</changefreq>
