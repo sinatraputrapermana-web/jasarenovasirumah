@@ -82,6 +82,18 @@
 
   <!-- Detail Blog (tambahkan satu <url> per artikel baru) -->
   <url>
+    <loc>https://jasarenovasirumah.my.id/blog/estimasi-biaya-renovasi-rumah</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/garansi-renovasi-rumah</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://jasarenovasirumah.my.id/blog/renovasi-rumah-malang-rab-transparan</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
