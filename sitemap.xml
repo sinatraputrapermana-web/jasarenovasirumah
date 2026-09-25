@@ -82,6 +82,12 @@
 
   <!-- Detail Blog (tambahkan satu <url> per artikel baru) -->
   <url>
+    <loc>https://jasarenovasirumah.my.id/blog/jasa-desain-interior-malang</loc>
+    <lastmod>2026-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://jasarenovasirumah.my.id/blog/renovasi-rumah-subsidi-malang-lahan-belakang</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
