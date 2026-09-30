@@ -75,12 +75,18 @@
   <!-- Blog (indeks) -->
   <url>
     <loc>https://jasarenovasirumah.my.id/blog</loc>
-    <lastmod>2026-09-30</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Detail Blog (tambahkan satu <url> per artikel baru) -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/jasa-desain-interior-surabaya</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://jasarenovasirumah.my.id/blog/biaya-jasa-arsitek-malang</loc>
     <lastmod>2026-09-30</lastmod>
