@@ -75,12 +75,18 @@
   <!-- Blog (indeks) -->
   <url>
     <loc>https://jasarenovasirumah.my.id/blog</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Detail Blog (tambahkan satu <url> per artikel baru) -->
+  <url>
+    <loc>https://jasarenovasirumah.my.id/blog/jasa-kontraktor-gudang-surabaya</loc>
+    <lastmod>2026-10-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://jasarenovasirumah.my.id/blog/proses-desain-arsitek-malang</loc>
     <lastmod>2026-10-02</lastmod>
